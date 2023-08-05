@@ -1,7 +1,7 @@
 {
   "name": "aiprompt",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Best ChatGPT-4 CLI to develop your projects from your file system",
   "author": "Izel Nakri",
   "license": "MIT",
