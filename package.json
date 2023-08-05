@@ -8,10 +8,11 @@
   "repository": "https://github.com/izelnakri/aiprompt.git",
   "main": "index.js",
   "bin": {
-    "aiprompt": "index.js"
+    "aiprompt": "node.js"
   },
   "scripts": {
-    "bin": "chmod +x cli.js && ./cli.js",
+    "bin": "chmod +x node.js && ./node.js",
+    "bin:deno": "chmod +x deno.ts && ./deno.ts",
     "build": "echo 'No build step yet'",
     "changelog:unreleased": "node_modules/.bin/auto-changelog --stdout --commit-limit false --package --unreleased-only --hide-credit --sort-commits date-desc",
     "changelog:preview": "node_modules/.bin/auto-changelog --stdout --commit-limit false --package -u --sort-commits date-desc",

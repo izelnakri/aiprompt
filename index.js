@@ -1,1 +1,3 @@
-console.log('Coming soon: aiprompt!');
+import aiprompt from './src/index.js';
+
+export default aiprompt;
